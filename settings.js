@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by prince*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923168598809' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '50948700015' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -59,7 +59,7 @@ module.exports = { //exporting modules to use in plugins
 //----------------Session ID------------------------------//
 //////////////////////////////////////////////////////////////////
 
-SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0xFeHZSamhBYitET2dRdVlsZStTa3g2R1ZwbEQzalVkZUthcFN1bzhrVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRWg5OXRHcEZpRnZNbk9lbysra2ZKSWlaR3Zzc0FhdzNlT0dwU05xOG1HRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnS216R2k4Ykp3TkRQekZJZVozQittbDJML0hjU0V4Nk9PeGNBb0lQcFVzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5VUo0Ny9MWE1jbHBsQjFHR25BWE4yNDMyejl0enBXQno4SUc3REQzRFNRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlDOElLMm5RdndkNWx4cWlERUxNeHNOOXNJekRSOU9DbGpHVEx3OGdISHM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNrWVVCLzN2b3p6cW1UTnh6enh0bW1zRUFSTS9hYkpjbC9ZVlMwdVMxQk09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEt3UE41THZlQ2FIaUp5Y3ZqeisyNmdrL2FZZnpaT2s0V3ZMNmZnYmpVVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWFRIZUVONGh1VXIwTVB2VnVHT1Raa3p4RzFvUXdTc3NROVdRSTlPOHYzOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9rUE5vWjJpWDZSbERBYVNHK3NhUk5UVEhrcmoxcTY3c3llUEx1RUc2MCtBOTFHYU1kamI0NTk1NElKdk1jUnhSWU9YVkNmVkdPZmlEK3JJZWdDUGhnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI3LCJhZHZTZWNyZXRLZXkiOiJLbUdiSVZsWER2YlYyNWxXQzhodFBnb1VaN1YrLzVYWEIrMkxDSDNWb1drPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJPb2VLdk1Wc1NmNkFTRkxlb2VjM01nIiwicGhvbmVJZCI6ImRjNGUxNWMzLWNiMWUtNDk1Yi05YmYwLTc5NTFmZDNjMmY3OSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHMzc1S3Y2MEp3eGV4WUtJVmVQS0JvSFkwQWc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ21WWEZBYnVuOTg2MHZJWWJGUUZPanFTcCtzPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlZYSDRMTUYxIiwibWUiOnsiaWQiOiI5MjMxNjg1OTg4MDk6MjRAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0ovUzUrZ0VFTnlyaDdVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkdLTHQzUEQ0TnpJdEE2ZlcwL0RYKzc0TmFXTjMxSlVmTlQ5NGM2R00zRzA9IiwiYWNjb3VudFNpZ25hdHVyZSI6InJsS0VQY2h4MWN3L01icVpJT25INWxlelR2NnNBVUFFbWtleWt0djNnVVNWTFB0aGFqaCtPWlczVnloOSt3bnZVOWQzRVpOV3krbnJPSGYrUGtCa0RBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlajFCS1hlTTExOGo2VFdFc1A0TlBhcGlmckUvelA3em43ZVVMZ0pkcW1La3pLYkgxajF2dkdRT0xXbjl6MkYyNzVLTWtyTGpjclZGODRiME9SRmNoZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzE2ODU5ODgwOToyNEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJSaWk3ZHp3K0RjeUxRT24xdFB3MS91K0RXbGpkOVNWSHpVL2VIT2hqTnh0In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxODgyMDg4LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUJWZCJ9', //Paste your session ID here
+SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUdVVnArdklOOHlsZjJVc1ovUWFBNW8wMnZIWitJRC9jczllZlV2U3Zraz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia3Z5YTlmZVhOKzJrOHBMQ2JCeHdPTjl4TFNHM2p2VDg1L3R5WXplTVEwTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnQ3dOeFA1Tlg0aCt0Y1pUWTJnTU5WUFJXRGRVZWkyM3lzUFl0QjByTmxVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYazlRMWdWSFd1TXBzNFhXeGpqTGloTFVDL3hDaHFScktGdzZxeWRVUUdJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlQemxYakNHZXVBSUE0UUlLMWtNeUVNQ0hzd29RUUp3Z1h5MjVzcjlna0E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJsUjdoRmtuK3ZyT1FnSmpnYTlSWllPUStsT253dm1UOHJrNWFaNHQ3MWM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0hPVG1YMUVQdzRRbi9QS1pCMlZDT2tXV3Q5dXNpekh6UGdGZVdVZmkxND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTVRPVUlXdnUrRWVGOTQ5bENtMTE3ZDBMUU83eTJTV2Zkd1dnSmMxZGdqQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxKdk1xNW91MFJjSGJnRzNVcldaZCtVSUFYdU1WelRRTXBWT2g4TGhDYjNRZkZrRk9wdU9xVnY0ZjBFdnYrQ2dMT0J6Y1psUmhNQ3I3MXN2aThOVGh3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE0LCJhZHZTZWNyZXRLZXkiOiJhTUVqNVo2YTU1UVpLemQrU2NEbE1aT1lETWFTU0RCOGVuUU16VHMzeVBRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJpNl9ZWlM1TlJZMkhJU2x6cUVGYU1BIiwicGhvbmVJZCI6ImQzMjk0MTc3LTU1OGYtNGIyYS1hNDkyLWIxMDU0YzE4N2Q1OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhdzN5dTVzSkdDeW5sa1RXZzB0Y2hUaXM4LzQ9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNPS2pZQVB2TEFBYVJDZ211NFllQ1J2b0VPQT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05ENXJlY0RFSWVPb0xVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjZnMDc4N2V6N3ExU25ZS1QwSmtTSnlGdXJtTVk2UUF6NFhUUFE2bzd6RFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjY4S2ZodGNVTWtOVUhJR2ErTjl1Z0J1SkdaODg4OE5rWCtmZ013azBrOURKcGQxNzlKL2M1MGJVVDVSaTV1OXVyL2wrdGJJV2RyOVdjNE80OVRyU0NnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJkYUNrMTZHZUJhNElNcyt0ZUp6d05iQy9zN3FVTW04TWtqMXRseW1YUmpibHZhM0xVTWhTRTlGQXpqbmt2L0QxY1A0LzRBYjg1L0M3anVQTG1LaUdqQT09In0sIm1lIjp7ImlkIjoiNTA5NDg3MDAwMTU6MjZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi4bSN4bSA6pywyarhtIAgTWHNpWZpzaNhzavhtLrhtYnLo+G1mMuiIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjUwOTQ4NzAwMDE1OjI2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmVvTk8vTzNzKzZ0VXAyQ2s5Q1pFaWNoYnE1akdPa0FNK0YwejBPcU84dzEifX1dLCJwbGF0Zm9ybSI6InNtYmkiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjIyODc4ODksIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBQ2JtIn0=', //Paste your session ID here
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -89,7 +89,7 @@ LANG:  process.env.LANG || 'EN' , //URDU OR EN
 PREFIX: process.env.PREFIX || '.' , //PREFIX, LEAVE IT DEFAULT OTHERWISE BUTTON WILL NOT WORK
 //////////////////////////////////////////////////////////
 
-WORK_TYPE: process.env.WORK_TYPE || 'public' , //public or private
+WORK_TYPE: process.env.WORK_TYPE || 'private' , //public or private
 //////////////////////////////////////////////////////////
 
 travaSend: process.env.TRAVA_SEND || '25' ,   //BUGS
@@ -155,25 +155,25 @@ ANTI_LINK: process.env.ANTI_LINK || true  , //true or false
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,  //true or false    
 //////////////////////////////////////////////////////////
 
-ANTI_BOT: process.env.ANTI_BOT || false  , //true or false
+ANTI_BOT: process.env.ANTI_BOT || true , //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_CALL: process.env.ANTI_CALL || false  , //true or false
+ANTI_CALL: process.env.ANTI_CALL || true  , //true or false
 //////////////////////////////////////////////////////////
 
 ALIVE: process.env.ALIVE || `default`,     
 //////////////////////////////////////////////////////////
 
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,     //true or false
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,     //true or false
 //////////////////////////////////////////////////////////
 
-AUTO_STICKER: process.env.AUTO_STICKER || false  , //true or false
+AUTO_STICKER: process.env.AUTO_STICKER || true  , //true or false
 //////////////////////////////////////////////////////////
 
-WELCOME:  process.env.WELCOME  || false ,   //true or false
+WELCOME:  process.env.WELCOME  || true ,   //true or false
 //////////////////////////////////////////////////////////
 
-ANTI_DELETE : process.env.ANTI_DELETE || false , //true or false
+ANTI_DELETE : process.env.ANTI_DELETE || true , //true or false
 //////////////////////////////////////////////////////////
 
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
